@@ -1,9 +1,10 @@
  import React from 'react';
  import styled from 'styled-components';
- import {Figma} from 'react-feather';
+ import {Dribbble} from 'react-feather';
  import {Mail} from 'react-feather';
  import {Twitter} from 'react-feather';
  import {NavLink} from 'react-router-dom';
+ import { GitHub } from 'react-feather';
   
  
  const Styles = styled.div`
@@ -16,10 +17,7 @@
         text-align: center !important;
 
     }
-
-
  }
-
 
     .footerStyle {
         background-color: #F7F7F7;
@@ -100,13 +98,13 @@
     <div className="container">
     <div className="row footerPadding">
         <div className="col-md-4">
-        <h1 className = "footerHeader">Furquan Ahmad</h1>
-        <p className="footerSubHeader text-justify"> Product designer at Meta in London. I love creating design tutorials online.</p>
+        <h1 className = "footerHeader">Ockiya Beinmonyu Daniel</h1>
+        <p className="footerSubHeader text-justify"> Product designer at TeamEcho in Linz, Austria. Love designing user centered products.</p>
 
         <ul className = "footerList">
-        <li className = "listStyle mb-2"><Mail strokeWidth="1.5" color = "#333333" size = {20}></Mail> <a href="mailto:furquan101@gmail.com">Email me</a></li>
-        <li className = "mb-2"><Figma strokeWidth="1.5" color = "#333333" size = {20}></Figma> <a href="https://www.figma.com/@furquan101" target="_blank" rel="noopener noreferrer">@furquan101</a></li>
-        <li className = "mb-4"> <Twitter strokeWidth="1.5" color = "#333333" size = {20}></Twitter> <a href="https://twitter.com/furquan101" target="_blank" rel="noopener noreferrer">@furquan101</a></li>
+        <li className = "listStyle mb-2"><Mail strokeWidth="1.5" color = "#333333" size = {20}></Mail> <a href="mailto:beinmonyudaniel@gmail.com">Email me</a></li>
+        <li className = "mb-2"><Dribbble strokeWidth="1.5" color = "#333333" size = {20}></Dribbble> <a href="https://dribbble.com/Beinmonyu" target="_blank" rel="noopener noreferrer">@Beinmonyu</a></li>
+        <li className = "mb-4"> <Twitter strokeWidth="1.5" color = "#333333" size = {20}></Twitter> <a href="https://twitter.com/Beinmonyu" target="_blank" rel="noopener noreferrer">@Beinmonyu</a></li>
         </ul>
         </div>
         <div className="offset-md-1 col-xs-6 col-md-2">
@@ -115,10 +113,8 @@
             <li className = "mb-1">
                 <NavLink to = "/">Portfolio</NavLink>
             </li>
-            <li className = "mb-1"><a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1UpTdtar62IfRxNy-11cjNovRyueqTSnx/view?usp=sharing">Resume</a></li>
-            <li className = "mb-1"><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/furquan101/">LinkedIn</a></li>
-            <li className = "mb-1"><a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UC7IIFWV7QjKja6UYjL-z9Cw">YouTube</a></li>
-            <li className = "mb-1"><a rel="noopener noreferrer" target="_blank" href="https://newsletter.furquan.me/">Newsletter</a></li>
+            <li className = "mb-1"><a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1tdEzplHRkZOGeEOhGjInoU6y-e40_T8_/view?usp=sharing">Resume</a></li>
+            <li className = "mb-1"><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/beinmonyu/">LinkedIn</a></li>
 
             <li className = "mb-1">
                 <NavLink to = "/About">About</NavLink>
@@ -130,11 +126,10 @@
         </div>
 
         <div className="offset-md-1 col-xs-6 col-md-4">
-        <h3 className="footerBrowsingHeader">TALKS AND BLOGS</h3>
+        <h3 className="footerBrowsingHeader">OTHER RESOURCES</h3>
         <ul className="footerList">
-            <li className = "mb-2"><a rel="noopener noreferrer" target="_blank" href="https://config.figma.com/">Speaker at Figma Config Europe 2020</a></li>
-            <li className = "mb-2"><a rel="noopener noreferrer" target="_blank" href="https://muslamicmakers.com/covid19-web-app/">Covid19 – Web App by Furquan Ahmad and Ali Zafar</a></li>
-            <li className = "mb-2"><a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/watch/?v=300731831060699">Speaker at Muslamic Makers Lightning Talks</a></li>
+            <li className = "mb-4"> <GitHub strokeWidth="1.5" color = "#333333" size = {20}></GitHub> <a href="https://github.com/annonbytes" target="_blank" rel="noopener noreferrer">@Beinmonyu</a></li>
+            <li className = "mb-2"><a rel="noopener noreferrer" target="_blank" href="https://tiny-cowl-e11.notion.site/The-Vault-Design-Resource-stash-6923be3ad1fe463792a98f34e35d1502">The Vault - Design resources stash</a></li>
         </ul>
         </div>
     </div>
@@ -143,8 +138,8 @@
     <div className="container">
     <div className="row">
         <div className="col-12">
-        <p className="copyrightText">Copyright © {new Date().getFullYear()} Furquan Ahmad.&nbsp; 
-            <a rel="noopener noreferrer" target="_blank" href="https://github.com/furquan101">Developed by Furquan.</a>
+        <p className="copyrightText">Copyright © {new Date().getFullYear()} Ockiya Beinmonyu Daniel.&nbsp; 
+            <a rel="noopener noreferrer" target="_blank" href="https://github.com/annonbytes">Developed by Beinmonyu.</a>
         </p>
         </div>
     </div>

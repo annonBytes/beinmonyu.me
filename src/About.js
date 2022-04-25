@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import profileRounded from '../src/Components/Assets/Img/profileRounded.png';
+import profileRounded from '../src/Components/Assets/Img/bigbytes.jpg';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import DeedsAtHome from '../src/Components/Assets/Img/DeedsAtHome.png';
@@ -187,21 +187,20 @@ export const About = () => (
           <Container>
             <div className="row d-flex align-items-center">
               <div className="col-lg-6 col-12 col-md-7">
-              <h1 className = "headerStyle"> Hi, I'm Furquan <span aria-label="waving hand" role="img">👋</span></h1>
-                <p className="subHeaderText"> I'm a product designer at Meta currently working on the Workplace team.
+              <h1 className = "headerStyle"> Hi, I'm Daniel Ockiya <span aria-label="waving hand" role="img">👋</span></h1>
+                <p className="subHeaderText"> I'm a product designer at TeamEcho GmBH.
                 </p><div className="row">
                   <div className="col-lg-6 col-6">
                     <hr className="fancy-line mt-2 mb-4" />
                   </div>
                 </div>
                 <div className ="bodyHeaderText">
-                <p>Because I've been in the trenches as a designer and developer, I know about the tech jargon that matters.</p>
-                <p>Today, I'm a product designer at Meta in London, working on Workplace previously i was at Ford Motor Company.</p>
-                <p>Catch me outside from work you will find me running with my local running club,  at a climbing wall or working on one of my community side projects.</p>
+                <p>I have over 4+ years experience in the management of the complete design process, from conceptualization to the delivery of web and mobile applications user interface and experience.</p>
+                <p>Catch me outside from work you will find me playing football with the local club in Vienna, Austria..</p>
                </div>
               </div>
               <div className="col-6 col-sm-3 col-md-4 offset-md-1 col-lg-3 offset-lg-3 mb-3 mb-sm-0 text-right order-first order-sm-last">
-                  <img className = "profilePicture" alt ="Furquan" src={profileRounded} />
+                  <img className = "profilePicture" alt ="Daniel Ockiya" src={profileRounded} />
               </div>
             </div>
           </Container>
@@ -217,23 +216,22 @@ export const About = () => (
             <div className="col-md-4 col-lg-4">
             <h5 className="TLDRSubHeader">What</h5>
             <div className="TLDRBodyText">
-            <p>I've been designing and developing global mobility soloutions for over 5 years at Ford Mobility. </p>
-            <p>It started in 2015 when i started a degree apprenticeship at Ford and graduated with a first class honors. </p>
+            <p>I've been designing and developing global mobility soloutions for over 3 years at Appzone group. </p>
+            <p>I have a Bachelors degree in Computer science and management and a Masters in Interactive media. </p>
             </div>
             </div>
             <div className="col-md-4 col-lg-4">
             <h5 className="TLDRSubHeader">Where</h5>
             <div className = "TLDRBodyText">
-            <p>I live in London, United Kingdom one of my favourite places in the world.</p>
-            <p>I grew up in Essex, United Kingdom. We invented the Radio there.</p>
+            <p>I live in Vienna, Austria.</p>
+            <p>I grew up in Lagos, Nigeria. The home of idealist.</p>
             </div>
             </div>
             <div className="col-md-4 col-lg-4">
-            <h5 className="TLDRSubHeader">Wild</h5>
+            <h5 className="TLDRSubHeader">Things for Fun</h5>
             <div className = "TLDRBodyText">
-            <p> I love keeping up with FinTechs and have a strong interest in investing.</p>
-            <p> I love the world of open source and try to give back to the community as and when i can. </p>
-            <p> I also love reading books, cooking and gaming. I'm currently playing a lot of League Of Legends.</p>
+            <p> I love playing video games. I'm currently playing lots of GTA V</p>
+            <p> I play soccer by the weekend. </p>
             </div>
             </div>
         </div>
@@ -245,51 +243,6 @@ export const About = () => (
         </div>
 
       
-
-
-        <Container>
-            <Row className ="justify-content-center">
-                <div className="col-md-6 col-lg-3 mb-4">
-                    <h1 className ="sideProjectHeader">Side Projects</h1>
-                    <p className ="sideProjectSubHeader"> A neat collection of my community side projects.</p>
-                </div>
-                <div className="col-md-6 col-lg-3  mb-4 col-10">
-                    <Card className = "h-100">
-                        <Card.Img variant="top" src={DeedsAtHome} />
-                        <Card.Body className="mb-1">
-                            <a className = "cardTitle" href="https://www.figma.com/community/file/834164719425301604/Deeds-At-Home" target="_blank" rel="noopener noreferrer"> Deeds At Home </a>
-                            <Card.Text className = "cardBody">
-                             Designing a personalised schedule for Ramadan during the lockdown filled with Islamic activities.
-                            </Card.Text>
-                        </Card.Body>
-                        </Card>
-                    </div>
-
-                    <div className="col-md-6 col-lg-3 mb-4 col-10">
-                    <Card className = "h-100"> 
-                        <Card.Img variant="top" src={Covid19} />
-                        <Card.Body className="mb-1">
-                            <a className = "cardTitle" href="https://www.covid19-live.co.uk/" target="_blank" rel="noopener noreferrer"> COVID-19 Live </a>
-                            <Card.Text className = "cardBody">
-                            Designing and developing a web app to allow you to understand the wider impact of COVID-19 on society.
-                            </Card.Text>
-                        </Card.Body>
-                        </Card>
-                    </div>
-
-                    <div className="col-md-6 col-lg-3 mb-4 col-10">
-                    <Card className = "h-100">
-                        <Card.Img variant="top" src={Yuumi} />
-                        <Card.Body className="mb-1">
-                            <a className = "cardTitle" href="https://www.youtube.com/watch?v=1fTNfQvhYso" target="_blank" rel="noopener noreferrer"> Yuumi Chatbot </a>
-                            <Card.Text className = "cardBody">
-                                Developing a chatbot to help people talk openly about their mental health, in a safe, open and free environment. 
-                            </Card.Text>
-                        </Card.Body>
-                        </Card>
-                    </div>    
-                </Row> 
-        </Container>
 
         <Jumbotron className="contactJumbotron">
         <Container>

@@ -67,7 +67,7 @@ export const NavigationBar = () => (
   <Styles>
     <Navbar collapseOnSelect className="py-4 px-3" expand="lg">
       <Container>
-      <Navbar.Brand className="hvr-underline-from-left" href="/">Furquan Ahmad</Navbar.Brand>
+      <Navbar.Brand className="hvr-underline-from-left" href="/">beinmonyu</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
 
@@ -78,21 +78,13 @@ export const NavigationBar = () => (
           <Nav.Link className="hvr-underline-from-left mr-4">Portfolio</Nav.Link>
           </LinkContainer>
 
-            <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1UpTdtar62IfRxNy-11cjNovRyueqTSnx/view?usp=sharing">
+            <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1tdEzplHRkZOGeEOhGjInoU6y-e40_T8_/view?usp=sharing">
              Resume
             </Nav.Link>
           
 
-           <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/furquan-ahmad-2528a44b/">
+           <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/beinmonyu/">
             LinkedIn
-           </Nav.Link>
-
-           <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UC7IIFWV7QjKja6UYjL-z9Cw">
-            YouTube
-           </Nav.Link>
-          
-           <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://newsletter.furquan.me/">
-            Newsletter
            </Nav.Link>
 
           <LinkContainer to = "/About"> 

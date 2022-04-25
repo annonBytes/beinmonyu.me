@@ -113,22 +113,18 @@ export const Contact = () => (
 <Styles>
 
 <Container>
-  <Row>
-  <div className = "offset-md-8 col-md-4 mx-auto">
-  <img className = "contactPicture" alt ="404 cat" src={contactPicture}/>
-  </div>
- </Row>
+
  <Row>
-  <div className = "col-md-12 mx-auto">
-  <h1 className = "headerCopyStyle"> Contact Furquan <span aria-label="waving hand" role="img">👋</span></h1>
+  <div className = "col-md-12 mx-auto mt-5">
+  <h1 className = "headerCopyStyle"> Contact Daniel <span aria-label="waving hand" role="img">👋</span></h1>
   </div>
  </Row>
 
  <Row>
   <div className = "col-md-12 mx-auto">
   <p className = "bodyCopyStyle"> 
-  Let's open the conversation and see what we could do together. I'm always interested in new ideas, opportunities or
-  hearing what you're working on, so drop me a message and say hello.
+  Let's open the conversation and see what we can do together. I'm always interested in hearing about new ideas, opportunities or
+  hearing what you're working on, so drop me a line and say hello.
   </p>
   </div>
  </Row>
@@ -136,14 +132,13 @@ export const Contact = () => (
  <Row className="mt-2 mb-5">
   <div className = "col-md-12">
    <ul className="listStyle">
-   <li className = "hvr-underline-from-left mr-4"><a href="mailto:furquan101@gmail.com">Email me</a></li>    
-   <li className = "hvr-underline-from-left mr-4"><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/furquan101/">LinkedIn</a></li>
-   <li className = "hvr-underline-from-left mr-4"><a rel="noopener noreferrer" target="_blank" href="https://twitter.com/furquan101">Twitter</a></li>
+   <li className = "hvr-underline-from-left mr-4"><a href="mailto:beinmonyudaniel@gmail.com">Email me</a></li>    
+   <li className = "hvr-underline-from-left mr-4"><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/beinmonyu/tw">LinkedIn</a></li>
+   <li className = "hvr-underline-from-left mr-4"><a rel="noopener noreferrer" target="_blank" href="https://twitter.com/Beinmonyu">Twitter</a></li>
    </ul>
   </div>
  </Row>
 
 </Container>
-<NewsletterFooter/>
 </Styles>
 )

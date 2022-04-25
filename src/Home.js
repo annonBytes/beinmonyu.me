@@ -4,17 +4,19 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import styled from 'styled-components';
 import {BigCard} from './Components/BigCard';
-import fordPass from '../src/Components/Assets/Img/Fordpass.jpg';
-import FordPassCoPilot from '../src/Components/Assets/Img/FordPassCoPilot.jpg';
-import FPPCover from '../src/Components/Assets/Img/FPPCover.jpg';
-import fordLogo from '../src/Components/Assets/Img/FordLogo.svg';
-import FPPLogo from '../src/Components/Assets/Img/FPPLogo.svg';
-import rsa from '../src/Components/Assets/Img/RSA.jpg';
-import Journeys from '../src/Components/Assets/Img/Journeys.jpg';
-import LMD from '../src/Components/Assets/Img/LMD.jpg';
-import LMDLogo from '../src/Components/Assets/Img/LMDLogo.svg';
-import FPPBuilder from  '../src/Components/Assets/Img/FPPBuilder.jpg';
-import {NewsletterFooter} from './Components/NewsletterFooter';
+import dispagoLogo from '../src/Components/Assets/Img/dispago.svg';
+import dispagoCover from '../src/Components/Assets/Img/logistiks.png';
+import Crawler from '../src/Components/Assets/Img/crawler.png';
+import gtc from '../src/Components/Assets/Img/gtbself.png';
+import gtLogo from '../src/Components/Assets/Img/gtb.svg';
+import crawlLogo from '../src/Components/Assets/Img/Crawl.svg';
+import pp from '../src/Components/Assets/Img/extra.svg';
+import ppCover from '../src/Components/Assets/Img/piano.png';
+import scLogo from '../src/Components/Assets/Img/seamconsult.svg';
+import sc from '../src/Components/Assets/Img/sc.png';
+import TE from '../src/Components/Assets/Img/TE.png';
+import TELogo from '../src/Components/Assets/Img/teamecho.svg'
+
 import './App.css';
 
 const Styles = styled.div`
@@ -28,9 +30,7 @@ const Styles = styled.div`
         margin-right: 2rem !important;
         padding: 0;
 
-    }
-
-   
+    } 
 }
 
 
@@ -45,10 +45,7 @@ const Styles = styled.div`
         font-weight: 700;
         line-height: 1.2em;
     }
-
     `;
-
-
 
 export const Home = () => (
 
@@ -59,7 +56,7 @@ export const Home = () => (
  <Row>  
    <Col>
     <h1 className="headerStyling mb-2">
-    I’m a digital product designer, inspired by accessibility, culture and community.
+    I’m a digital UI/UX designer, inspired by accessibility, culture and community.
     </h1>
     </Col>
  </Row>
@@ -67,11 +64,11 @@ export const Home = () => (
  <Row> 
   <Col className ="mt-5">
   <BigCard 
-    imgProjectLogo={LMDLogo}
-    imgCardLarge={LMD}
-    cardTitleName = {"Creating a profitable delivery network in megacities"}
-    cardBodyText = {"Last Mile Delivery is a new urban multi modal delivery network. In this project we scale a delivery network 10X, reduce congestion by 166%, increase deliveries per hour by 160%. All during a pandemic. "}
-    cardLink = {"/LMD"}
+    imgProjectLogo={TELogo}
+    imgCardLarge={TE}
+    cardTitleName = {"Creating a working environment that inspires"}
+    cardBodyText = {"TeamEcho is the easiest way to create a better work environment for everyone in your organization. Get real-time insights and KPIs on business-critical challenges and strengthen company success. In this project we redesigned the comment hub web application giving it a modern look, and improving users feedback by 75%."}
+    cardLink = {"/TeamEcho"}
    />
    </Col>
  </Row>
@@ -79,11 +76,11 @@ export const Home = () => (
  <Row> 
   <Col>
   <BigCard 
-    imgProjectLogo={fordLogo}
-    imgCardLarge={fordPass}
-    cardTitleName = {"Designing a smart, live, digital breakdown experience."}
-    cardBodyText = {"When you break down in your vehicle, your left in the cold about  what's going on. We changed this static experience to be completely digital for over 9 million FordPass users, in the Digital RSA project."}
-    cardLink = {"/RSA"}
+    imgProjectLogo={crawlLogo}
+    imgCardLarge={Crawler}
+    cardTitleName = {"Bringing luxirious social experiences to you."}
+    cardBodyText = {"Crawl is a simple to use platform that takes away the heavy lifting of trying to get inspired for a day or a night out in the city."}
+    cardLink = {"/crawl"}
     />
    </Col>
  </Row>
@@ -91,11 +88,35 @@ export const Home = () => (
  <Row> 
   <Col>
   <BigCard 
-    imgProjectLogo={FPPLogo}
-    imgCardLarge= {FPPBuilder}
-    cardTitleName = {"Managing your fleet health and security remotely."}
-    cardBodyText = {"The FordPass Pro project is about helping fleet managers to manage the health and maintenace of their Ford vehicles on the move. Allowing them to be more proactive when it comes to vehicle maintenace."}
-    cardLink = {"/FordPassPro"}
+    imgProjectLogo={scLogo}
+    imgCardLarge= {sc}
+    cardTitleName = {"Creating a platform for expert consultancy services."}
+    cardBodyText = {"Seamconsult is a platform that enables experienced specialists to provide consultation services to individuals, startups or companies."}
+    cardLink = {"/seamconsult"}
+    />
+   </Col>
+ </Row>
+
+ <Row> 
+  <Col>
+  <BigCard 
+    imgProjectLogo={gtLogo}
+    imgCardLarge= {gtc}
+    cardTitleName = {"Reduce the queues at the Banks, Get your ATM cards instantly."}
+    cardBodyText = {"Guaranty Trust Holding Company PLC also known as GTCO PLC is a multinational financial services group.They offers retail and investment banking,  payments services etc. The self-service card issuance enables customers to print out their ATM cards without assistance in minutes."}
+    cardLink = {"/gt"}
+    />
+   </Col>
+ </Row>
+
+ <Row> 
+  <Col>
+  <BigCard 
+    imgProjectLogo={dispagoLogo}
+    imgCardLarge= {dispagoCover}
+    cardTitleName = {"Start a world class logistics business with ease."}
+    cardBodyText = {"Dispago enables companies to focus on growing their business while building and automating logistics processes. We aim to improve real-time tracking and drive up productivity."}
+    cardLink = {"/Dispago"}
     />
    </Col>
  </Row>
@@ -104,18 +125,17 @@ export const Home = () => (
  <Row> 
   <Col>
     <BigCard 
-    imgProjectLogo={fordLogo}
-    imgCardLarge={Journeys}
+    imgProjectLogo={pp}
+    imgCardLarge={ppCover}
     cardLink={"/RSA"}
-    cardTitleName = {"Putting your live vehicle data into your hands."}
-    cardBodyText = {"The FordPass Digital CoPilot project was about increasing user engagement on the app using live vehicle data. We designed new features such as  journey histories, fuel reports and mileage milestones. The features increased monthly engagement by 135%."}
-    cardLink = {"/404"}
+    cardTitleName = {"Digital page-turning while playing the piano."}
+    cardBodyText = {"This project is aimed at getting insights on various page-turning methods while playing the piano. Example of such methods are: Wink of the eye, turn of the head, Tap, Swipe and the use of a foot pedal."}
+    cardLink = {"/page-turning"}
     />
    </Col>
  </Row>
 
 </Container>
-<NewsletterFooter/>
 </Styles>
 
 )
